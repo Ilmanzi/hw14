@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 - lakukan installasi dependencies
-- install dependencies dengan perintah `npm install` di dalam kedua folder backend & frontend
+- install dependencies dengan perintah `npm install`
 - buat database menggunakan PostgreSQL
 - buat koneksi database pada .env file dengan url
 - contoh DATABASE_URL=postgresql://USER:PASSWORD@HOST:PORT/DATABASE
