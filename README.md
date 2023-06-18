@@ -2,12 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-- lakukan installasi dependencies
-- install dependencies dengan perintah `npm install`
-- buat database menggunakan PostgreSQL
-- buat koneksi database pada .env file dengan url
-- contoh DATABASE_URL=postgresql://USER:PASSWORD@HOST:PORT/DATABASE
-- lakukan migrasi database dengan perintah `npx migrate dev`
+- Install dependencies `npm install`
+- Create PostgreSQL Database
+- This app is using prisma, so make sure to connect it with URL Database within .env file
+- Example `DATABASE_URL=postgresql://USER:PASSWORD@HOST:PORT/DATABASE`
+- Execute the database migration `npx migrate dev`
 
 First, run the development server:
 
